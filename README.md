@@ -88,7 +88,7 @@ This project turns an LED ON when the push button is pressed, and OFF when relea
 - Pull-down resistor logic
 ## circuit diagram 
 Here is the link(https://wokwi.com/projects/434182444161851393)
-## 🔁 Day 05 – Alternate LED Blinking (Even & Odd Pins)
+## 🔁 Day 04 – Alternate LED Blinking (Even & Odd Pins)
 
 ### 📌 Overview  
 This project alternately blinks two LEDs connected to even and odd digital pins (e.g., D2 and D3) on the Arduino UNO. It helps understand basic pin control and toggling logic.
