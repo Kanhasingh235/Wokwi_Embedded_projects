@@ -124,3 +124,26 @@ This project creates a simple LED chaser effect using 8 LEDs connected from digi
 -  delay()
 ## ciruit diagram 
  Here you can see wokwi circuit diagram (https://wokwi.com/projects/434814402148524033)
+
+//controlling led brightness using potentiometer
+
+##  Day 06 – LED Brightness Control using Potentiometer
+
+###  Overview  
+Control an LED’s brightness based on the rotation of a potentiometer using analog input and PWM output.
+
+### 🧰 Components  
+- Arduino UNO  
+- 1 x Potentiometer  
+- 1 x LED  
+- 1 x 220Ω Resistor  
+- Breadboard and wires
+
+### 🧠 Concepts Used  
+- `analogRead()` – read analog input from potentiometer  
+- `map()` – convert analog value (0–1023) to PWM (0–255)  
+- `analogWrite()` – control brightness
+
+### 🔗 circuit Simulation
+Here is the link (https://wokwi.com/projects/434998844626301953)
+
