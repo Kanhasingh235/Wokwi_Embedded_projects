@@ -145,4 +145,23 @@ Control an LED’s brightness based on the rotation of a potentiometer using ana
 
 ### 🔗 circuit Simulation
 Here is the link (https://wokwi.com/projects/434998844626301953)
+## Project 07 – Buzzer Control Using Push Button
+
+### 📌 Overview  
+This project turns a buzzer ON when the push button is pressed and OFF when released. It helps understand digital input-output logic using Arduino.
+
+### 🧰 Components  
+- Arduino UNO  
+- 1 x Buzzer  
+- 1 x Push Button  
+- 1 x 10kΩ Resistor  
+- Breadboard & jumper wires
+
+### 🧠 Concepts Used  
+- `digitalRead()` for button  
+- `digitalWrite()` for buzzer  
+- Pull-down resistor concept
+
+##circuit diagram 
+   Here is the link (https://wokwi.com/projects/435178057099481089) 
 
