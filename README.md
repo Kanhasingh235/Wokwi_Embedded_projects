@@ -1,6 +1,6 @@
 # 🚀 Embedded Systems Project Series – From Basics to Major Project
 
-This repository contains a structured series of embedded systems projects . It follows a day-wise learning approach
+This repository contains a structured series of embedded systems projects . It follows a project-wise learning approach
 starting from LED blinking and button controls, leading up to a full **Home Automation System** as the major project.
 
 ### 🎯 Objective
@@ -23,7 +23,7 @@ Each project includes:
 -  Verified Arduino code  
 -  Wokwi simulation link 
 
-# day 01-Blinking LED
+# project 01-Blinking LED
 platform : Wokwi simulator 
 component: Arduino UNO , LED 
 
@@ -38,7 +38,7 @@ component: Arduino UNO , LED
     ## ciruit diagram
     Here is the link (https://wokwi.com/projects/433730590277051393)
 
-    # 🚦 Day 02 – Traffic Light Controller using LEDs
+ ## 🚦 Project 02 – Traffic Light Controller using LEDs
 
 ## 📅 Project Overview
 This project simulates a basic traffic light controller using three LEDs
@@ -68,7 +68,7 @@ The Arduino runs a continuous loop:
 2. Yellow light turns ON for 2 seconds (prepare to stop)
 3. Red light turns ON for 5 seconds (vehicles stop)
 
-## 🔘 Day 03 – LED Controlled by Push Button
+## Project 03 – LED Controlled by Push Button
 
 ### 📌 Overview  
 This project turns an LED ON when the push button is pressed, and OFF when released. It helps understand digital input handling using `digitalRead()`.
@@ -88,7 +88,7 @@ This project turns an LED ON when the push button is pressed, and OFF when relea
 - Pull-down resistor logic
 ## circuit diagram 
 Here is the link(https://wokwi.com/projects/434182444161851393)
-## 🔁 Day 04 – Alternate LED Blinking (Even & Odd Pins)
+## Project  04 – Alternate LED Blinking (Even & Odd Pins)
 
 ### 📌 Overview  
 This project alternately blinks two LEDs connected to even and odd digital pins (e.g., D2 and D3) on the Arduino UNO. It helps understand basic pin control and toggling logic.
@@ -106,7 +106,7 @@ This project alternately blinks two LEDs connected to even and odd digital pins 
 ## circuit diagram 
 Here is the link (https://wokwi.com/projects/434715368815618049)
 
-## 🔁 Day 05 – LED Chaser
+## 🔁 Project 05 – LED Chaser
 
 ### 📌 Overview  
 This project creates a simple LED chaser effect using 8 LEDs connected from digital pins 2 to 9 on an Arduino UNO. LEDs turn ON and OFF in sequence from left to right, then right to left — without using arrays, making it ideal for beginners.
@@ -125,9 +125,8 @@ This project creates a simple LED chaser effect using 8 LEDs connected from digi
 ## ciruit diagram 
  Here you can see wokwi circuit diagram (https://wokwi.com/projects/434814402148524033)
 
-//controlling led brightness using potentiometer
 
-##  Day 06 – LED Brightness Control using Potentiometer
+##  Project 06 – LED Brightness Control using Potentiometer
 
 ###  Overview  
 Control an LED’s brightness based on the rotation of a potentiometer using analog input and PWM output.
