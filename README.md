@@ -165,7 +165,7 @@ This project turns a buzzer ON when the push button is pressed and OFF when rele
 ##circuit diagram 
    Here is the link (https://wokwi.com/projects/435178057099481089) 
 
-## 🌡 Day 07 – Temperature & Humidity Display using DHT22
+## 🌡 project 07 – Temperature & Humidity Display using DHT22
 
 ### 📌 Overview  
 This project reads temperature and humidity using the DHT22 sensor and displays the values on the Serial Monitor using Arduino UNO. It's ideal for learning how to interface digital sensors with microcontrollers.
@@ -188,6 +188,28 @@ This project reads temperature and humidity using the DHT22 sensor and displays 
 ### 🔗 Simulation Link  
 Here is the link (https://wokwi.com/projects/435529092141008897)
 
----
+## Project 08 – Temperature & Humidity Monitor with DHT22 + I2C LCD
 
+### 🔍 Overview
+This project reads temperature and humidity using a DHT22 sensor and displays the readings on a 16x2 I2C LCD.
 
+### 🧰 Components
+- Arduino UNO  
+- DHT22 Sensor  
+- 16x2 I2C LCD  
+- Jumper wires  
+- Breadboard
+
+### 🔌 Connections
+- DHT22 → VCC: 5V, GND: GND, DATA: D7  
+- I2C LCD → SDA: A4, SCL: A5  
+
+### 🧠 Key Concepts
+- Interfacing DHT22 sensor  
+- Using I2C protocol for LCD  
+- Displaying real-time data
+
+### 🧾 Output
+Displays temperature in °C and humidity in % on the LCD every 2 seconds.
+## simulation link
+Here is the link (https://wokwi.com/projects/435530352809513985)
