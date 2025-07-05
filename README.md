@@ -213,3 +213,28 @@ This project reads temperature and humidity using a DHT22 sensor and displays th
 Displays temperature in °C and humidity in % on the LCD every 2 seconds.
 ## simulation link
 Here is the link (https://wokwi.com/projects/435530352809513985)
+
+## Project 10 – Auto Street Light using LDR Module
+
+### Overview:
+This project turns an LED ON automatically in darkness using an LDR sensor module connected to Arduino UNO.
+
+### Components:
+- Arduino UNO
+- LDR Module (Analog OUT)
+- LED
+- Resistor (220Ω)
+- Jumper wires
+
+### Working:
+- Arduino reads light value from LDR module (A0).
+- If light level is low → LED ON.
+- If enough light → LED OFF.
+
+### Learning:
+- Analog sensor interfacing
+- Threshold-based automation
+- Basic real-world electronics logic
+
+ ## simulation link
+ Here is the link (https://wokwi.com/projects/435635043000957953)
