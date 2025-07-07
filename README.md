@@ -45,15 +45,14 @@ This project simulates a basic traffic light controller using three LEDs
 (Red, Yellow, Green). The lights turn on in a timed sequence just like a
 real-world traffic signal. This is part of a 30-day embedded systems self-internship.
 ## 🛠 Components Used
-| Component      | Quantity |
-|----------------|----------|
-| Arduino UNO    | 1        |
-| Red LED        | 1        |
-| Yellow LED     | 1        |
-| Green LED      | 1        |
-| 220Ω Resistors | 3        |
-| Jumper Wires   | As needed |
-| Breadboard     | 1        |
+| Component      | Quantity 
+
+| Arduino UNO    | 1        
+| Red LED        | 1        
+| Yellow LED     | 1        
+| Green LED      | 1        
+| 220Ω Resistors | 3        
+| Breadboard     | 1        
 
 ---
 Each LED is connected in series with a 220Ω resistor to ground.
@@ -79,7 +78,6 @@ This project turns an LED ON when the push button is pressed, and OFF when relea
 - 1 x Push Button  
 - 1 x 220Ω Resistor (LED)  
 - 1 x 10kΩ Resistor (pull-down)  
-- Breadboard, jumper wires
 
 ### 🧠 Concepts Used  
 - `pinMode()`  
@@ -96,13 +94,13 @@ This project alternately blinks two LEDs connected to even and odd digital pins 
 ### 🧰 Components  
 - Arduino UNO  
 - 2 x LEDs  
-- 2 x 220Ω Resistors  
-- Breadboard and jumper wires
+- 2 x 220Ω Resistors
+- Breadboard
 
 ### 🧠 Concepts Used  
-- `pinMode()`  
-- `digitalWrite()`  
-- `delay()`
+- pinMode()  
+- digitalWrite() 
+- delay()
 ## circuit diagram 
 Here is the link (https://wokwi.com/projects/434715368815618049)
 
@@ -115,8 +113,7 @@ This project creates a simple LED chaser effect using 8 LEDs connected from digi
 - Arduino UNO  
 - 8 x LEDs  
 - 8 x 220Ω Resistors  
-- without Breadboard, Jumper Wires
-
+  
 ### 🧠 Concepts Used  
 -  pinMode()  
 -  digitalWrite() 
@@ -136,7 +133,6 @@ Control an LED’s brightness based on the rotation of a potentiometer using ana
 - 1 x Potentiometer  
 - 1 x LED  
 - 1 x 220Ω Resistor  
-- Breadboard and wires
 
 ### 🧠 Concepts Used  
 - `analogRead()` – read analog input from potentiometer  
@@ -196,8 +192,7 @@ This project reads temperature and humidity using a DHT22 sensor and displays th
 ### 🧰 Components
 - Arduino UNO  
 - DHT22 Sensor  
-- 16x2 I2C LCD  
-- Jumper wires  
+- 16x2 I2C LCD   
 - Breadboard
 
 ### 🔌 Connections
@@ -224,8 +219,7 @@ This project turns an LED ON automatically in darkness using an LDR sensor modul
 - LDR Module (Analog OUT)
 - LED
 - Resistor (220Ω)
-- Jumper wires
-
+  
 ### Working:
 - Arduino reads light value from LDR module (A0).
 - If light level is low → LED ON.
@@ -238,3 +232,25 @@ This project turns an LED ON automatically in darkness using an LDR sensor modul
 
  ## simulation link
  Here is the link (https://wokwi.com/projects/435635043000957953)
+
+ ## Day 11 – Motion Sensor Based LED Control
+
+This project uses a PIR motion sensor to detect human motion. 
+When motion is detected, an LED turns ON; otherwise, it remains OFF. 
+This setup simulates real-world applications like motion-activated street lights and indoor automation.
+
+### Components Used
+- Arduino UNO
+- PIR Motion Sensor
+- 1x LED
+- Resistor (220Ω)
+
+
+### Working Principle
+The PIR sensor detects IR radiation (body heat).
+When a human passes within range, the sensor outputs HIGH.
+This signal is read by the Arduino to switch the LED ON or OFF.
+## simulation link
+Here is the link (https://wokwi.com/projects/435815627605352449)
+
+
