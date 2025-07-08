@@ -6,12 +6,12 @@ starting from LED blinking and button controls, leading up to a full **Home Auto
 ### 🎯 Objective
 To build practical hands-on skills in embedded systems using Arduino UNO, starting from the basics and progressing to intermediate-level applications.
 
-### 🧰 Tools & Platforms
+###  Tools & Platforms
 - **Arduino UNO (Simulated)**
 - **Wokwi Simulator**
 - **GitHub for version control and documentation**
 
-### 📚 Learning Journey
+###  Learning Journey
 - ✅ Day 01–05: Basic LED and button handling  
 - ✅ Day 06–07: Sequencing, analog input (PWM)  
 - ✅ Day 08–12: Sensor-based inputs, buzzer, LCD, multi-device control  
@@ -38,9 +38,9 @@ component: Arduino UNO , LED
     ## ciruit diagram
     Here is the link (https://wokwi.com/projects/433730590277051393)
 
- ## 🚦 Project 02 – Traffic Light Controller using LEDs
+ ##  Project 02 – Traffic Light Controller using LEDs
 
-## 📅 Project Overview
+##  Project Overview
 This project simulates a basic traffic light controller using three LEDs
 (Red, Yellow, Green). The lights turn on in a timed sequence just like a
 real-world traffic signal. This is part of a 30-day embedded systems self-internship.
@@ -61,7 +61,7 @@ Each LED is connected in series with a 220Ω resistor to ground.
    Here is the link(https://wokwi.com/projects/433907754529703937)
   ---
 
-## 💡 Working Principle
+##  Working Principle
 The Arduino runs a continuous loop:
 1. Green light turns ON for 5 seconds (vehicles can go)
 2. Yellow light turns ON for 2 seconds (prepare to stop)
@@ -69,17 +69,17 @@ The Arduino runs a continuous loop:
 
 ## Project 03 – LED Controlled by Push Button
 
-### 📌 Overview  
+###  Overview  
 This project turns an LED ON when the push button is pressed, and OFF when released. It helps understand digital input handling using `digitalRead()`.
 
-### 🧰 Components  
+###  Components  
 - Arduino UNO  
 - 1 x LED  
 - 1 x Push Button  
 - 1 x 220Ω Resistor (LED)  
 - 1 x 10kΩ Resistor (pull-down)  
 
-### 🧠 Concepts Used  
+###  Concepts Used  
 - `pinMode()`  
 - `digitalRead()`  
 - `digitalWrite()`  
@@ -88,33 +88,33 @@ This project turns an LED ON when the push button is pressed, and OFF when relea
 Here is the link(https://wokwi.com/projects/434182444161851393)
 ## Project  04 – Alternate LED Blinking (Even & Odd Pins)
 
-### 📌 Overview  
+###  Overview  
 This project alternately blinks two LEDs connected to even and odd digital pins (e.g., D2 and D3) on the Arduino UNO. It helps understand basic pin control and toggling logic.
 
-### 🧰 Components  
+###  Components  
 - Arduino UNO  
 - 2 x LEDs  
 - 2 x 220Ω Resistors
 - Breadboard
 
-### 🧠 Concepts Used  
+###  Concepts Used  
 - pinMode()  
 - digitalWrite() 
 - delay()
 ## circuit diagram 
 Here is the link (https://wokwi.com/projects/434715368815618049)
 
-## 🔁 Project 05 – LED Chaser
+##  Project 05 – LED Chaser
 
-### 📌 Overview  
+###  Overview  
 This project creates a simple LED chaser effect using 8 LEDs connected from digital pins 2 to 9 on an Arduino UNO. LEDs turn ON and OFF in sequence from left to right, then right to left — without using arrays, making it ideal for beginners.
 
-### 🧰 Components  
+###  Components  
 - Arduino UNO  
 - 8 x LEDs  
 - 8 x 220Ω Resistors  
   
-### 🧠 Concepts Used  
+###  Concepts Used  
 -  pinMode()  
 -  digitalWrite() 
 -  for  loop  
@@ -128,83 +128,83 @@ This project creates a simple LED chaser effect using 8 LEDs connected from digi
 ###  Overview  
 Control an LED’s brightness based on the rotation of a potentiometer using analog input and PWM output.
 
-### 🧰 Components  
+###  Components  
 - Arduino UNO  
 - 1 x Potentiometer  
 - 1 x LED  
 - 1 x 220Ω Resistor  
 
-### 🧠 Concepts Used  
+###  Concepts Used  
 - `analogRead()` – read analog input from potentiometer  
 - `map()` – convert analog value (0–1023) to PWM (0–255)  
 - `analogWrite()` – control brightness
 
-### 🔗 circuit Simulation
+###  circuit Simulation
 Here is the link (https://wokwi.com/projects/434998844626301953)
-## Project 07 – Buzzer Control Using Push Button
 
-### 📌 Overview  
+## Project 07 – Buzzer Control Using Push Button
+###  Overview  
 This project turns a buzzer ON when the push button is pressed and OFF when released. It helps understand digital input-output logic using Arduino.
 
-### 🧰 Components  
+###  Components  
 - Arduino UNO  
 - 1 x Buzzer  
 - 1 x Push Button  
 - 1 x 10kΩ Resistor  
 - Breadboard & jumper wires
 
-### 🧠 Concepts Used  
+###  Concepts Used  
 - `digitalRead()` for button  
 - `digitalWrite()` for buzzer  
 - Pull-down resistor concept
 
-##circuit diagram 
+## circuit diagram 
    Here is the link (https://wokwi.com/projects/435178057099481089) 
 
 ## 🌡 project 08 – Temperature & Humidity Display using DHT22
 
-### 📌 Overview  
+###  Overview  
 This project reads temperature and humidity using the DHT22 sensor and displays the values on the Serial Monitor using Arduino UNO. It's ideal for learning how to interface digital sensors with microcontrollers.
 
-### 🧰 Components Used  
+###  Components Used  
 - Arduino UNO  
 - DHT22 Sensor  
 - Breadboard and jumper wires
 
-### 🧠 Concepts Covered  
+###  Concepts Covered  
 - Sensor data reading (Digital)  
 - DHT22 library usage  
 - Serial communication for output
 
-### 🧾 Code Summary  
+###  Code Summary  
 - Uses `DHT.h` library  
 - Reads temperature (°C) and humidity (%)  
 - Displays data on Serial Monitor every 2 seconds
 
-### 🔗 Simulation Link  
+###  Simulation Link  
 Here is the link (https://wokwi.com/projects/435529092141008897)
 
 ## Project 09 – Temperature & Humidity Monitor with DHT22 + I2C LCD
 
-### 🔍 Overview
+###  Overview
 This project reads temperature and humidity using a DHT22 sensor and displays the readings on a 16x2 I2C LCD.
 
-### 🧰 Components
+###  Components
 - Arduino UNO  
 - DHT22 Sensor  
 - 16x2 I2C LCD   
 - Breadboard
 
-### 🔌 Connections
+###  Connections
 - DHT22 → VCC: 5V, GND: GND, DATA: D7  
 - I2C LCD → SDA: A4, SCL: A5  
 
-### 🧠 Key Concepts
+###  Key Concepts
 - Interfacing DHT22 sensor  
 - Using I2C protocol for LCD  
 - Displaying real-time data
 
-### 🧾 Output
+###  Output
 Displays temperature in °C and humidity in % on the LCD every 2 seconds.
 ## simulation link
 Here is the link (https://wokwi.com/projects/435530352809513985)
@@ -233,7 +233,7 @@ This project turns an LED ON automatically in darkness using an LDR sensor modul
  ## simulation link
  Here is the link (https://wokwi.com/projects/435635043000957953)
 
- ## Day 11 – Motion Sensor Based LED Control
+ ## project 11 – Motion Sensor Based LED Control
 
 This project uses a PIR motion sensor to detect human motion. 
 When motion is detected, an LED turns ON; otherwise, it remains OFF. 
