@@ -253,4 +253,22 @@ This signal is read by the Arduino to switch the LED ON or OFF.
 ## simulation link
 Here is the link (https://wokwi.com/projects/435815627605352449)
 
+##  Day 12 – Distance Measurement Using Ultrasonic Sensor
+
+###  Overview
+This project uses an HC-SR04 ultrasonic sensor with Arduino Uno to measure the distance of an object and display the result on the Serial Monitor.
+
+###  Objective
+Learn to work with ultrasonic sensors and calculate real-time distances using Arduino.
+
+###  Components
+- Arduino Uno
+- Ultrasonic Sensor (HC-SR04)
+- Jumper Wires
+
+###  Output
+The sensor sends ultrasonic waves, and based on the echo return time, it calculates the distance and prints it in cm.
+
+## simulation 
+Here is the link(https://wokwi.com/projects/435900251274411009)
 
