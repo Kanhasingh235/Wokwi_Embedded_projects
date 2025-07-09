@@ -266,9 +266,33 @@ Learn to work with ultrasonic sensors and calculate real-time distances using Ar
 - Ultrasonic Sensor (HC-SR04)
 - Jumper Wires
 
+## Project 13 – Obstacle Detection with Buzzer
+
+### Objective:
+Detect objects within 10 cm using an Ultrasonic Sensor and trigger a Buzzer alert.
+
+### Components:
+- Arduino UNO  
+- HC-SR04 Ultrasonic Sensor  
+- Buzzer  
+
+### Connections:
+- Trig → D9  
+- Echo → D10  
+- Buzzer + → D3  
+- Buzzer – → GND  
+
+### Working:
+If an object is detected closer than 10 cm, the buzzer turns ON. Else, it stays OFF.
+
+### Output:
+- Distance shown in Serial Monitor  
+- Buzzer alert for close objects
+
+
 ###  Output
 The sensor sends ultrasonic waves, and based on the echo return time, it calculates the distance and prints it in cm.
 
 ## simulation 
-Here is the link(https://wokwi.com/projects/435900251274411009)
+Here is the link(https://wokwi.com/projects/435998692860333057)
 
