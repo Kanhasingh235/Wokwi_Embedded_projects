@@ -312,8 +312,30 @@ and alerts with different buzzer beep speeds based on proximity.
 - 10–20cm → Slow Beep
 - >20cm → Silent
 
+## Project  15 – Temperature-Controlled Fan (LED) with DHT22
+
+Turns an LED (acting as a fan) ON when room temperature exceeds 30 °C, using a DHT22 sensor.
+
+### Components
+- Arduino UNO
+- DHT22 sensor
+- LED (+ 220 Ω resistor)
+
+### Connections
+- DHT22 DATA → D7  
+- LED Anode → D3  
+- LED Cathode → GND (via 220 Ω)  
+
+### Logic
+1. Read temperature from DHT22.  
+2. If Temp > 30 °C → LED ON (fan running).  
+3. Else → LED OFF.  
+
 ## Real-life Use:
 Used in cars, robotics, and contactless alert systems.
+
+## simulation link 
+Here is the link (https://wokwi.com/projects/436356637679740929)
 
 ## simulation link
 Here is the link (https://wokwi.com/projects/436355613732618241)
