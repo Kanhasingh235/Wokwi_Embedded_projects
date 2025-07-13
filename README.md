@@ -296,3 +296,25 @@ The sensor sends ultrasonic waves, and based on the echo return time, it calcula
 ## simulation 
 Here is the link(https://wokwi.com/projects/435998692860333057)
 
+# Project 14 – Multi-Level Proximity Alert
+
+This project uses an ultrasonic sensor to detect object distance
+and alerts with different buzzer beep speeds based on proximity.
+
+## Components:
+- Arduino Uno
+- HC-SR04
+- Passive Buzzer
+- Jumper Wires
+
+## Logic:
+- <10cm → Fast Beep
+- 10–20cm → Slow Beep
+- >20cm → Silent
+
+## Real-life Use:
+Used in cars, robotics, and contactless alert systems.
+
+## simulation link
+Here is the link (https://wokwi.com/projects/436355613732618241)
+
